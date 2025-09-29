@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1> Resumo Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="topo">Índice</h2>
+    
+    <ul>
+        <li><a href="#historiaComputadores">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#basico">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historiaComputadores">História dos computadores</h2>
+<blockquote>
+    “Computadores são inúteis. <mark>Eles só podem dar respostas</mark> .”
+    <footer style="text-indent: 20px;">- Pablo Picasso.</footer>
+</blockquote>
+
+
+    <p style="text-indent: 40px; text-align: justify;">
+        Os computadores têm suas origens nas primeiras máquinas de cálculo, como o ábaco e, mais tarde, 
+        a máquina analítica idealizada por Charles Babbage no século XIX, considerada um dos conceitos iniciais de computador programável. 
+        Durante a Segunda Guerra Mundial, surgiram os primeiros computadores eletromecânicos e eletrônicos, como o ENIAC, que ocupava salas inteiras e era 
+        utilizado principalmente para cálculos militares. Essas máquinas eram grandes, caras e de uso restrito a governos e instituições de pesquisa.</p>
+
+    <p style="text-indent: 40px; text-align: justify;">
+        Com o avanço da tecnologia, especialmente a invenção do transistor em 1947 e do circuito integrado na década de 1950, 
+        os computadores foram se tornando menores, mais rápidos e acessíveis. Nas décadas seguintes, a popularização dos computadores pessoais, 
+        impulsionada por empresas como Apple e <abbr title="International Business Machines">IBM</abbr>, trouxe a computação para dentro das casas e escritórios. Hoje, com a evolução da internet, 
+        smartphones e inteligência artificial, os computadores estão presentes em praticamente todos os aspectos da vida cotidiana, 
+        conectando pessoas e transformando a sociedade.</p>
+
+            <small><a href="#topo">Voltar ao índice</a></small>
+
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+
+
+    <p style="text-indent: 40px; text-align: justify;">
+        Na internet, clients (ou clientes) são dispositivos ou programas que fazem solicitações a um servidor para acessar serviços, 
+        informações ou recursos. Eles podem ser computadores, smartphones, tablets ou até softwares específicos, como navegadores de internet, 
+        aplicativos de e-mail e programas de mensagens. O cliente envia uma requisição (request) ao servidor, que por sua vez responde com os dados solicitados, 
+        como páginas web, arquivos ou mensagens. Esse modelo de funcionamento é chamado de arquitetura cliente-servidor.</p>
+    
+    <p style="text-indent: 40px; text-align: justify;">
+        Um exemplo prático é o navegador de internet, como o Google Chrome ou o Firefox. Quando você digita um endereço de site, 
+        o navegador (client) envia um pedido ao servidor onde a página está hospedada. O servidor processa a solicitação e devolve o conteúdo, que é exibido na tela do usuário. 
+        Assim, o client atua como o intermediário que permite ao usuário interagir com os serviços e recursos disponíveis na rede.</p>
+
+            <small><a href="#topo">Voltar ao índice</a></small>
+    
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+
+
+    <p style="text-indent: 40px; text-align: justify;">
+        Na internet, servers (ou servidores) são computadores ou sistemas responsáveis por fornecer serviços, 
+        recursos e informações aos clients (clientes). Eles ficam constantemente disponíveis para receber solicitações e responder com os dados correspondentes, 
+        como páginas web, arquivos, vídeos, músicas ou e-mails. Diferente de um cliente, que consome os serviços, o servidor é quem os disponibiliza, 
+        geralmente hospedando conteúdos ou executando processos que permitem a comunicação em rede.</p>
+
+    <p style="text-indent: 40px; text-align: justify;">
+        Um exemplo comum é um servidor web, que armazena os arquivos de um site. 
+        Quando um usuário digita o endereço desse site em seu navegador (cliente), o navegador envia uma requisição ao servidor. 
+        Esse servidor processa o pedido e devolve a página solicitada, permitindo que o usuário a visualize. 
+        Assim, os servidores são fundamentais para o funcionamento da internet, pois sustentam toda a troca de informações entre usuários e recursos online.</p>
+
+            <small><a href="#topo">Voltar ao índice</a></small>
+
+
+    <h2 id="basico">Como é uma estrutura básica de um HTML?</h2>
+
+
+    <p style="text-indent: 40px; text-align: justify;">
+        A estrutura básica de um documento HTML é composta por um conjunto de elementos que organizam o conteúdo de uma página da web. 
+        Todo arquivo HTML começa com a declaração <strong>&lt;!DOCTYPE html&gt;</strong>, que informa ao navegador que o documento segue o padrão HTML5. 
+        Em seguida, o código é delimitado pela tag <strong>&lt;html&gt;</strong>, que envolve todo o conteúdo da página. 
+        Dentro dela, temos duas divisões principais: o <strong>&lt;head&gt;</strong> e o <strong>&lt;body&gt;</strong>.</p>
+
+    <p style="text-indent: 40px; text-align: justify;">
+        O elemento <strong>&lt;head&gt;</strong> contém informações sobre a página que não aparecem diretamente para o usuário, 
+        como o título exibido na aba do navegador <strong>&lt;title&gt;</strong>, links para arquivos CSS, scripts e metadados. 
+        Já o <strong>&lt;body&gt;</strong> reúne todo o conteúdo visível, como textos, imagens, links, tabelas e demais elementos que compõem a interface. 
+        Essa divisão entre estrutura (head) e conteúdo (body) garante organização e facilita a leitura tanto pelo navegador quanto por desenvolvedores.</p>
+
+            <small><a href="#topo">Voltar ao índice</a></small>
+
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2> 
+
+
+    <p style="text-indent: 40px; text-align: justify;">
+        As listas ordenadas em HTML são usadas quando a sequência dos itens importa. 
+        Elas são criadas com a tag <strong>&lt;ol&gt;</strong> (ordered list) e, por padrão, exibem os elementos numerados, 
+        mas também podem ser configuradas para usar letras ou algarismos romanos. Cada item da lista é colocado dentro de uma tag <strong>&lt;li&gt;</strong> (list item). 
+        Esse tipo de lista é útil em situações como instruções passo a passo, classificações ou etapas de um processo.</p>
+        
+        <p style="text-indent: 40px; text-align: justify;">Exemplo de lista ordenada:</p>
+        <ol>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li> 
+        </ol>
+
+    <p style="text-indent: 40px; text-align: justify;">
+        Já as listas não ordenadas são feitas com a tag <strong>&lt;ul&gt;</strong> (unordered list) e apresentam os itens sem uma ordem definida, 
+        geralmente marcados com pontos (bullets). Elas também utilizam a tag <strong>&lt;li&gt;</strong> para os itens, mas a ordem não tem relevância, 
+        sendo mais apropriadas para agrupamentos de informações, como características de um produto, tópicos de um resumo ou menus de navegação em sites. 
+        Dessa forma, a diferença principal está na forma de exibição e no propósito: ordenadas para sequência e não ordenadas para simples agrupamento.</p>
+
+        <p style="text-indent: 40px; text-align: justify;">Exemplo de lista não ordenada:</p>
+        <ul>        
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+
+            <small><a href="#topo">Voltar ao índice</a></small>
+<hr />
+    <h2>Links de referências</h2>
+    <p style="text-indent: 40px; text-align: justify;">
+        Aqui estão alguns links de referência que podem ser úteis para aprofundar seus conhecimentos sobre HTML e desenvolvimento web:</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a> - Documentação abrangente sobre HTML e outras tecnologias web.</li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a> - Tutoriais e exemplos práticos de HTML.</li>
+        <li><a href="https://html.spec.whatwg.org/multipage/" target="_blank">HTML Living Standard</a> - Especificação oficial do HTML mantida pelo WHATWG.</li>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="_blank">freeCodeCamp</a> - Curso gratuito de design web responsivo, incluindo HTML.</li>
+    
+    </ul>
+
+</body>
+</html>
